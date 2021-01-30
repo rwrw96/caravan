@@ -27,27 +27,32 @@ main {
     
     height: 150px;
     background-image: url(img/flow01.png);
-    background-size: cover 
+    background-size: cover;
+    background-position: bottom;
 }
 
 .img2 {
     height: 150px;
     background-image: url(img/flow02.png);
-    background-size: cover
+    background-size: cover;
+    background-position: bottom;
 }
 
 .img3 {
     height: 150px;
     background-image: url(img/flow03.png);
-    background-size: cover
+    background-size: cover;
+    background-position: bottom;
 }
 
 .step {
     position: absolute;
     top: 0;
     left: 0;
+    padding: 3px;
     background-color: #ff9a4b;
     color: aliceblue;
+
 }
 
 h3 {
@@ -62,4 +67,18 @@ h3 {
 footer {
     background-color: #aaaaaa;
     height: 50px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 768px){
+    header {
+        margin-bottom: 50px;
+    }
+    .container {
+        width: 90%;
+        margin: 10px 0;
+    }
+    .img1 {
+    }
+    
 }
